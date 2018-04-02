@@ -1,0 +1,23 @@
+<RISK> 
+	<GENDER>MALE</GENDER>
+	
+	<MOLES_RARM>7</MOLES_RARM>
+
+	<!-- NO, YES -->
+	<NMSC>YES</NMSC>
+	
+	<AGE>50_PLUS</AGE>
+	
+	<!--  IN, INOUT, OUT -->
+	<OCC>IN</OCC>
+	
+	<!--  NZ, NOT_NZ -->
+	<BIRTHPLACE>NOT_NZ</BIRTHPLACE>
+	
+	<!--  a number between 0, 200 -->
+	<CURRENT_AGE>63</CURRENT_AGE>
+	
+	<AREA>central</AREA>
+	
+	<CALCULATED_RISK>2.9</CALCULATED_RISK>
+</RISK>

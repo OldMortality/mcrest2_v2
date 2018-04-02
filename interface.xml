@@ -1,0 +1,33 @@
+<RISK>
+	<!-- MALE, FEMALE --> 
+	<GENDER></GENDER>
+	
+	<!-- OLIVE, MEDIUM, FAIR -->
+	<SKINCOLOUR></SKINCOLOUR>
+	
+	<!-- DONT_KNOW,NO,YES -->
+	<FAXMHXMOLES></FAXMHXMOLES>
+	
+	<!-- FEMALE: 0,1,2,3. (3 means 3 or more).   MALE: 0,1,2,3,4,5,.. etc -->
+	<MOLES_RARM></MOLES_RARM>
+
+	<!-- NO, YES -->
+	<NMSC></NMSC>
+	
+	<!-- This is the age group at diagnosis -->
+	<!-- 50_OR_LESS, 50_PLUS -->
+	<AGE></AGE>
+	
+	<!--  IN, INOUT, OUT -->
+	<OCC></OCC>
+	
+	<!--  NZ, NOT_NZ -->
+	<BIRTHPLACE></BIRTHPLACE>
+	
+	<!--  a number between 0, 200 -->
+	<CURRENT_AGE></CURRENT_AGE>
+	
+	<!--  the result of the calculation. absolute risk for this person. -->
+	<CALCULATED_RISK>3.6</CALCULATED_RISK>
+</RISK>
+

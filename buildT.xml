@@ -1,0 +1,35 @@
+<project default="deploywar">
+
+<!--
+	<property name="deploydir" value="C:\apache-tomcat-7.0.25\webapps" />
+-->
+	<property name="deploydir" value="/var/lib/tomcat8/webapps/" />
+	<!--property name="targetdir" value="/root/workspace-mars/mcrest2/WebContent" /-->
+	<property name="targetdir" value="/home/michel/eclipse-oxygen-workspace/mcrest2/WebContent" />
+
+
+	 
+
+	<target name="log4jreplace" >
+		<replace file="${targetdir}/WEB-INF/classes/log4j.properties">
+
+			<replacefilter token="@LOGFILE@" value="mcrest2.log" />
+
+    		<replacefilter token="log4j.rootLogger=info, stdout, file" value="log4j.rootLogger=debug, stdout, file, email"/> 
+
+		</replace>
+	</target>
+
+	<!--   create the production war file -->
+	<target name="deploywar" depends="log4jreplace">
+		<zip destfile="${deploydir}/mcrest2.war" basedir="${targetdir}">
+		</zip> 
+		
+		<echo message="mcrest2.war is in ${deploydir}"/>
+	</target>
+
+	
+	
+	
+
+</project>
