@@ -7,6 +7,11 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(Suite.class)
 @SuiteClasses({ CalculatorTest.class,Table3Test.class ,UtilTest.class})
 
+/**
+ * 
+ * @author Michel
+ *
+ */
 public class AllTests {
-
+	
 }
